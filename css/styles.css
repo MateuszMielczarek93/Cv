@@ -1,10 +1,16 @@
 .circle{
-width: 1000px;
-height: 1000px;
+width: 100px;
+height: 100px;
 border-radius: 50%;
+background-color: red;
 }
 
-body{
+.me{
+width: 200px;
+height: 200px;
 background-color: red;
+
+
+
 
 }
