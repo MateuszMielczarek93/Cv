@@ -4,34 +4,37 @@ position: fixed;
 z-index: 1;
 top: 0;
 overflow-x: hidden;
-padding-top: 20px;
-
-
 }
 
 .LeftSide{
-  background-color: red;
+  margin-top: 20px;
+  margin-left: 20px;
+
+  background-color: #DADADA;
   left: 0;
   width: 15%;
-
+border-color: #AFAFAF;
+border-style: solid;
+border-radius: 2px;
 }
+
 .RightSide{
-  background-color: blue;
+  background-color: #222222;
+  margin-top: 20px;
+  margin-right: 20px;
+
+
 right: 0;
 width: 80%;
-
 }
 
-
 .MinePhoto{
-padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 5px;
-  height: 10%;
+  margin-left: 18px;
+padding: 80px;
+ height: 10%;
   width: 40%;
   border-radius: 50%;
-
+  scale: 200%;
 }
 
 .Menu{
