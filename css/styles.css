@@ -1,16 +1,18 @@
-.circle{
-width: 100px;
-height: 100px;
-border-radius: 50%;
-background-color: red;
+.MinePhoto{
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 5px;
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+
+}
+.me{
+background-color: lightgray;
 }
 
-.me{
-width: 200px;
-height: 200px;
-background-color: red;
-
-
-
+.Menu{
+  padding-bottom: -300px;
 
 }
