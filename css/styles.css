@@ -1,18 +1,39 @@
+.LeftSide, .RightSide{
+height: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+
+
+}
+
+.LeftSide{
+  background-color: red;
+  left: 0;
+  width: 15%;
+
+}
+.RightSide{
+  background-color: blue;
+right: 0;
+width: 80%;
+
+}
+
+
 .MinePhoto{
-  padding-top: 40px;
+padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 5px;
   height: 10%;
-  width: 10%;
+  width: 40%;
   border-radius: 50%;
 
 }
-.me{
-background-color: lightgray;
-}
 
 .Menu{
-  padding-bottom: -300px;
 
 }
