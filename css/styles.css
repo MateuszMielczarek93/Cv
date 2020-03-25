@@ -7,8 +7,8 @@ overflow-x: hidden;
 }
 
 .LeftSide{
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 90px;
+  margin-left: 1%;
 font-family: 'Baloo Bhaina 2', sans-serif;
 /*  background-color: #DADADA;*/
   left: 0;
@@ -21,11 +21,9 @@ border-radius: 2px;
 .RightSide{
   background-color: #222222;
   margin-top: 20px;
-  margin-right: 20px;
-
-
-right: 0;
-width: 80%;
+  margin-right: 1%;
+  right: 0;
+  width: 80%;
 }
 
 .MinePhoto{
@@ -49,19 +47,24 @@ word-wrap: normal;
 .Menu{
 list-style-type: none;
 display: inline; padding-left: 2;
-margin: 30px;
+margin: 70px;
 font-size: 30px;
 font-style: none;
-text-shadow: 2px 2px #000;
+/*text-shadow: 0px 2px #000;*/
 text-decoration: none;
 color: black;
 }
 
 a{
 text-decoration: none;
-color: darkgray;
+color: #414141;
+font-weight: bold;
 }
 
 a:hover{
 color: white;
+}
+
+.Contact, .MyProject, .Homepage, .Github{
+  box-shadow: 0px 0px 1px 1px lightgray;
 }
