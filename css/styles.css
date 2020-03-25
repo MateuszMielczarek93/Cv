@@ -10,7 +10,7 @@ overflow-x: hidden;
   margin-top: 20px;
   margin-left: 20px;
 font-family: 'Baloo Bhaina 2', sans-serif;
-  background-color: #DADADA;
+/*  background-color: #DADADA;*/
   left: 0;
   width: 15%;
 border-color: #AFAFAF;
@@ -35,6 +35,7 @@ padding: 80px;
   width: 40%;
   border-radius: 50%;
   scale: 200%;
+
 }
 
 .AboutMe{
@@ -46,5 +47,21 @@ word-wrap: normal;
 
 }
 .Menu{
+list-style-type: none;
+display: inline; padding-left: 2;
+margin: 30px;
+font-size: 30px;
+font-style: none;
+text-shadow: 2px 2px #000;
+text-decoration: none;
+color: black;
+}
 
+a{
+text-decoration: none;
+color: darkgray;
+}
+
+a:hover{
+color: white;
 }
