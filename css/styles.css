@@ -9,7 +9,7 @@ overflow-x: hidden;
 .LeftSide{
   margin-top: 20px;
   margin-left: 20px;
-
+font-family: 'Baloo Bhaina 2', sans-serif;
   background-color: #DADADA;
   left: 0;
   width: 15%;
@@ -31,12 +31,20 @@ width: 80%;
 .MinePhoto{
   margin-left: 18px;
 padding: 80px;
- height: 10%;
+ height: 12%;
   width: 40%;
   border-radius: 50%;
   scale: 200%;
 }
 
+.AboutMe{
+text-align: center;
+word-break: normal;
+word-wrap: normal;
+
+
+
+}
 .Menu{
 
 }
