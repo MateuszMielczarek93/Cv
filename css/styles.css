@@ -19,7 +19,7 @@ border-radius: 2px;
 }
 
 .RightSide{
-  background-color: #222222;
+/*  background-color: #222222;*/
   margin-top: 20px;
   margin-right: 1%;
   right: 0;
@@ -47,12 +47,14 @@ word-wrap: normal;
 .Menu{
 list-style-type: none;
 display: inline; padding-left: 2;
-margin: 70px;
+margin-left: 80px;'
+padding-top: 5px;
 font-size: 30px;
 font-style: none;
 /*text-shadow: 0px 2px #000;*/
 text-decoration: none;
 color: black;
+
 }
 
 a{
@@ -62,11 +64,11 @@ font-weight: bold;
 }
 
 a:hover{
-color: white;
+color: darkgray;
 }
 
 .Contact, .MyProject, .Homepage, .Github{
-  box-shadow: 0px 0px 1px 1px lightgray;
+  box-shadow: 0px 0px 3px 3px lightgray;
 }
 
 video{
@@ -83,8 +85,9 @@ text-align: center;
 text-align: center;
 margin-left: 20%;
 margin-right: 20%;
-color: white;
+color: black;
 font-size: 15px;
+font-weight: bold;
 }
 
 .MyProjectTitleText1{
@@ -92,7 +95,7 @@ text-align: center;
 margin-left: 20%;
 margin-right: 20%;
 margin-top: 25px;
-color: white;
+color: darkgrey;
 font-size: 13px;
 }
 
@@ -112,4 +115,17 @@ z-index: 2;
 position: fixed;
 margin-left: 150px;
 margin-top: -10px;
+margin-bottom: 2px;
+}
+
+.MenuBar{
+width: 99%;
+height: 40px;
+background: white;
+border-bottom: darkgrey;
+border-radius: 22px;
+border-bottom-style: solid;
+
+
+
 }
