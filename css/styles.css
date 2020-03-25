@@ -95,3 +95,21 @@ margin-top: 25px;
 color: white;
 font-size: 13px;
 }
+
+.Social1{
+height: 30px;
+width: 30px;
+margin-left: 110px;
+margin-top: -10px;
+z-index: 2;
+position: fixed;
+}
+
+.Social{
+height: 30px;
+width: 30px;
+z-index: 2;
+position: fixed;
+margin-left: 150px;
+margin-top: -10px;
+}
